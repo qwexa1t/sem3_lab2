@@ -2,8 +2,8 @@
 
 struct Rectang
 {
-	int length;
-	int width;
+	int length; //длина
+	int width; //ширина
 };
 
 Rectang getRectang(int a, int b);

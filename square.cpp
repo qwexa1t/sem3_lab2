@@ -9,7 +9,7 @@ Square getSquare(int a)
 	F1.storona = a;
 	return F1;
 }
-Square setSquare(Square F1) 
+Square setSquare(Square F1)
 {
 	printf(" ¬ведите сторону:");
 	scanf("%d", &F1.storona);

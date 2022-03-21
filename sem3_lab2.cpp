@@ -8,6 +8,7 @@
 #include <ctype.h>
 #include "square.h"
 #include "rectang.h"
+#include "triangle.h"
 #define PI 3.14
 
 int main()
@@ -58,7 +59,14 @@ int main()
 			printRectang(F2);
 			break;
 		case 3:
-			
+			printf("\n Вы выбрали Треугольник \n");
+			Triangle F3; //Создаем третью фигуру
+			printf("\n Пример \n");
+			F3 = getTriangle(3, 5); // Инициализация тругольника
+			printTriangle(F3); //Вывод площади треугольника на экран
+			printf("\n\n Введите данные: \n\n");
+			F3 = setTriangle(F3); //Установка значений
+			printTriangle(F3);
 			break;
 		case 4:
 			
