@@ -6,6 +6,7 @@
 #include <cstring>
 #include <windows.h>
 #include <ctype.h>
+#include "square.h"
 #define PI 3.14
 
 int main()
@@ -36,7 +37,14 @@ int main()
 		switch (N)
 		{
 		case 1:
-			printf("\n Все работает \n");
+			printf("\n Вы выбрали квадрат \n");
+			Square F1; //Создаем первую фигуру
+			printf("\n Пример \n");
+			F1 = getSquare(2); // Инициализация квадрата
+			printSquare(F1); //Вывод площади квадрата на экран
+			printf("\n\n Введите данные: \n\n"); 
+			F1 = setSquare(F1); //Установка значений
+			printSquare(F1);
 			break;
 		case 2:
 			

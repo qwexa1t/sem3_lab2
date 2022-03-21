@@ -1,7 +1,11 @@
 #pragma once
-struct Square {
+
+struct Square 
+{
 	int storona;
 };
+
 Square getSquare(int a);
-Square setSquare(Square figure1);
-void printSquare(Square figure1);
+Square setSquare(Square F1);
+int areaSquare(Square F1);
+void printSquare(Square F1);
