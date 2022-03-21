@@ -142,11 +142,13 @@
     <ClCompile Include="rectang.cpp" />
     <ClCompile Include="sem3_lab2.cpp" />
     <ClCompile Include="square.cpp" />
+    <ClCompile Include="trapezoid.cpp" />
     <ClCompile Include="triangle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="rectang.h" />
     <ClInclude Include="square.h" />
+    <ClInclude Include="trapezoid.h" />
     <ClInclude Include="triangle.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

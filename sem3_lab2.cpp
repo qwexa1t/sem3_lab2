@@ -9,6 +9,7 @@
 #include "square.h"
 #include "rectang.h"
 #include "triangle.h"
+#include "trapezoid.h"
 #define PI 3.14
 
 int main()
@@ -69,7 +70,14 @@ int main()
 			printTriangle(F3);
 			break;
 		case 4:
-			
+			printf("\n Вы выбрали Трапецию \n");
+			Trapezoid F4; //Создаем Четвертую фигуру
+			printf("\n Пример \n");
+			F4 = getTrapezoid(4, 2, 3); // Инициализация Трапеции
+			printTrapezoid(F4); //Вывод площади Трапеции на экран
+			printf("\n\n Введите данные: \n\n");
+			F4 = setTrapezoid(F4); //Установка значений
+			printTrapezoid(F4);
 			break;
 		case 5:
 			
