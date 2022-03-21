@@ -10,7 +10,7 @@
 #include "rectang.h"
 #include "triangle.h"
 #include "trapezoid.h"
-#define PI 3.14
+#include "circle.h"
 
 int main()
 {
@@ -80,9 +80,15 @@ int main()
 			printTrapezoid(F4);
 			break;
 		case 5:
-			
+			printf("\n Вы выбрали Круг \n");
+			Сircle F5; //Создаем Пятую фигуру
+			printf("\n Пример \n");
+			F5 = getСircle(7); // Инициализация Круга
+			printСircle(F5); //Вывод площади Круга на экран
+			printf("\n\n Введите данные: \n\n");
+			F5 = setСircle(F5); //Установка значений
+			printСircle(F5);
 			break;
-		
 		}
 
 	} while (N != 6);
