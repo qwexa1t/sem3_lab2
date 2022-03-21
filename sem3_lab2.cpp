@@ -7,6 +7,7 @@
 #include <windows.h>
 #include <ctype.h>
 #include "square.h"
+#include "rectang.h"
 #define PI 3.14
 
 int main()
@@ -47,7 +48,14 @@ int main()
 			printSquare(F1);
 			break;
 		case 2:
-			
+			printf("\n Вы выбрали Прямоугольник \n");
+			Rectang F2; //Создаем вторую фигуру
+			printf("\n Пример \n");
+			F2 = getRectang(2,4); // Инициализация прямоугольника
+			printRectang(F2); //Вывод площади прямоугольника на экран
+			printf("\n\n Введите данные: \n\n");
+			F2 = setRectang(F2); //Установка значений
+			printRectang(F2);
 			break;
 		case 3:
 			
