@@ -36,7 +36,7 @@ int main()
 		switch (N)
 		{
 		case 1:
-
+			printf("\n Все работает \n");
 			break;
 		case 2:
 			

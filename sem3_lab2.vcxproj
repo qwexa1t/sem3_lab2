@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClCompile Include="sem3_lab2.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="square.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
